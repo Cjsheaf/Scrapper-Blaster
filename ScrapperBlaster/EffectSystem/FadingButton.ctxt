@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=parentComponent
+comment0.target=FadingButton(javax.swing.JComponent)
+comment1.params=graphics
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment2.params=
+comment2.target=void\ addMouseListener()
+comment3.params=event
+comment3.target=void\ mousePressed(java.awt.event.MouseEvent)
+numComments=4

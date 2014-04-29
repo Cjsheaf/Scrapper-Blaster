@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PinLoader()
+comment1.params=
+comment1.target=PinLoader\ getInstance()
+comment1.text=Singleton\ methods*****************************
+comment2.params=
+comment2.target=void\ resetInstance()
+comment3.params=index
+comment3.target=Pin\ getPin(int)
+comment3.text=public\ static\ Pin\ getNextRandomPin()\ {\r\n\ \ \ \ \ \ \ \ int\ arrayLength\ \=\ pinDatabase.length;\r\n\ \ \ \ \ \ \ \ int\ index;\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ for\ (int\ x\ \=\ 0;\ x\ <\ arrayLength;\ x++)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (pinAccessed[x]\ \=\=\ false)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ break;\ //If\ there's\ at\ least\ one\ empty\ spot\ in\ the\ array,\ then\ continue.\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\ else\ if\ (x\ \=\=\ arrayLength\ &&\ pinAccessed[arrayLength\ -\ 1]\ \=\=\ true)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ null;\ //If\ the\ end\ of\ the\ array\ has\ been\ reached\ without\ an\ empty\ spot,\ return\ null\ early.\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ do\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ index\ \=\ randomGen.nextInt(arrayLength);\ \r\n\ \ \ \ \ \ \ \ }\ while\ (pinAccessed[index]\ \=\=\ true);\ //Pick\ the\ first\ random\ array\ location\ that's\ valid.\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ pinAccessed[index]\ \=\ true;\r\n\ \ \ \ \ \ \ \ pinDatabase[index].LoadImage();\r\n\ \ \ \ \ \ \ \ return\ pinDatabase[index];\r\n\ \ \ \ }\r\n\ \ \ \ public\ static\ Pin\ getNextInSeries(String\ seriesName)\ {\r\n\ \ \ \ \ \ \ \ int\ arrayLength\ \=\ pinDatabase.length;\r\n\ \ \ \ \ \ \ \ int\ index;\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ for\ (index\ \=\ 0;\ index\ <\ arrayLength;\ index++)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (pinAccessed[index]\ \=\=\ false\ &&\ seriesName.equals(pinDatabase[index].seriesName))\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ pinAccessed[index]\ \=\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ pinDatabase[index].LoadImage();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ return\ pinDatabase[index];\ //Return\ the\ first\ pin\ found\ that\ matches\ the\ series\ name\ which\ hasn't\ already\ been\ accessed.\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ return\ null;\ //If\ the\ end\ of\ the\ array\ has\ been\ reached\ without\ any\ matches,\ return\ null.\r\n}
+comment4.params=
+comment4.target=Pin\ getRandomPin()
+comment5.params=isScrapper
+comment5.target=Pin\ getRandomPin(boolean)
+numComments=6

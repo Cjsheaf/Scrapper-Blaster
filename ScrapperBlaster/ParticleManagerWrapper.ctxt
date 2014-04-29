@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ParticleManagerWrapper()
+comment1.params=
+comment1.target=ParticleManagerWrapper\ getInstance()
+comment2.params=
+comment2.target=void\ resetInstance()
+comment3.params=screen
+comment3.target=void\ attachViewScreen(ParticleSystem.ViewScreen)
+comment4.params=
+comment4.target=void\ loadParticleEffects()
+comment5.params=
+comment5.target=void\ update()
+comment6.params=graphics
+comment6.target=void\ drawParticles(java.awt.Graphics)
+comment7.params=effectName\ location
+comment7.target=void\ triggerParticleEffect(java.lang.String,\ java.awt.geom.Point2D.Double)
+numComments=8

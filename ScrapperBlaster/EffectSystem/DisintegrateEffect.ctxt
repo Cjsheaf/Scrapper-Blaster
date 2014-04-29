@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=new_sourceImage\ numberOfPasses\ delayBetweenPasses\ parentComponent
+comment0.target=DisintegrateEffect(java.awt.image.BufferedImage,\ int,\ int,\ javax.swing.JComponent)
+comment1.params=
+comment1.target=void\ loadFilters()
+comment2.params=
+comment2.target=void\ applyFilter()
+numComments=3

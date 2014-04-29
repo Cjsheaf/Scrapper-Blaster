@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=new_name\ new_pinNumber\ new_seriesName\ new_filePath
+comment0.target=Pin(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment1.params=new_name\ new_pinNumber\ new_seriesName\ new_image
+comment1.target=Pin(java.lang.String,\ int,\ java.lang.String,\ java.awt.image.BufferedImage)
+comment2.params=
+comment2.target=void\ LoadImage()
+comment3.params=pinToCopy
+comment3.target=Pin\ getCopy(Pin)
+numComments=4

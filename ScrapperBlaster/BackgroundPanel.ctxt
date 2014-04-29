@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=new_background
+comment0.target=BackgroundPanel(java.awt.image.BufferedImage)
+comment1.params=graphics
+comment1.target=void\ paintComponent(java.awt.Graphics)
+numComments=2

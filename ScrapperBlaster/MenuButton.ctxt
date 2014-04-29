@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=buttonText\ new_image\ parentComponent
+comment0.target=MenuButton(java.lang.String,\ java.awt.image.BufferedImage,\ javax.swing.JComponent)
+comment1.params=graphics
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment2.params=
+comment2.target=void\ getHighlightedVersion()
+comment3.params=
+comment3.target=void\ addMouseListener()
+comment4.params=event
+comment4.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment5.params=event
+comment5.target=void\ mouseExited(java.awt.event.MouseEvent)
+comment6.params=textSize
+comment6.target=void\ addText(int)
+numComments=7

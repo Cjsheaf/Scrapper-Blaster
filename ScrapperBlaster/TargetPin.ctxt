@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=parentComponent
+comment0.target=TargetPin(javax.swing.JComponent)
+comment1.params=new_pin\ parentComponent
+comment1.target=TargetPin(Pin,\ javax.swing.JComponent)
+comment2.params=graphics
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=event
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=
+comment4.target=void\ AddMouseListener()
+comment5.params=event
+comment5.target=void\ mousePressed(java.awt.event.MouseEvent)
+comment6.params=
+comment6.target=void\ setTimerDelay()
+comment7.params=new_pin
+comment7.target=void\ changePin(Pin)
+numComments=8

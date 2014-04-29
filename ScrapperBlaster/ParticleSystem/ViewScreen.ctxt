@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=viewableArea
+comment0.target=ViewScreen(java.awt.Rectangle)
+comment1.params=new_coords
+comment1.target=void\ CenterOnCoords(java.awt.Point)
+comment2.params=objectBoundingBox
+comment2.target=void\ CenterOnObject(java.awt.Rectangle)
+comment3.params=movementVector
+comment3.target=void\ Move(java.awt.Point)
+comment4.params=new_size
+comment4.target=void\ resize(java.awt.Rectangle)
+comment5.params=
+comment5.target=java.awt.Rectangle\ getScreenBounds()
+comment6.params=objectOrigin
+comment6.target=boolean\ isOnscreen(java.awt.Point)
+comment7.params=objectBoundingBox
+comment7.target=boolean\ isOnscreen(java.awt.Rectangle)
+numComments=8

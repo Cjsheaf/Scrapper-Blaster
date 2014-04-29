@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArtAssets()
+comment1.params=
+comment1.target=ArtAssets\ getInstance()
+comment2.params=assetIndex
+comment2.target=java.awt.image.BufferedImage\ getAsset(int)
+comment3.params=
+comment3.target=void\ loadAssets()
+numComments=4
